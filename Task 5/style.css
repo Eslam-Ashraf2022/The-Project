@@ -1,0 +1,506 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+.parent-contanir{
+width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    width: 100%;
+    height: 70px;
+    padding: 0 70px;
+    position: fixed;
+    z-index: 1;
+    
+
+}
+.nav-left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 9px;
+}
+.nav-right img{
+    height: 80%;
+    width: 140px;
+    padding: 5px;
+
+}
+.navbar div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.navbar div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+ a:hover {
+    background-color: rgba(135, 135, 135, );
+    
+}
+.navbar div a i{
+    font-size: 17px;
+    margin: 0 5px ;
+}
+.navbar .nav-right a i.fa-bars{
+    font-size: 22px;
+}
+.paragraf {
+    min-height: 100vh ;
+    background-image: url("hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    text-align: center;
+
+}
+.paragraf h1{
+    font-size: 45px;
+    margin: 10px 0;
+   
+}
+
+.parent-search input{
+    margin: 40px 0;
+    width: 50%;
+    height: 76px;
+    padding-right: 10px;
+    margin-bottom: 75px;
+    font-size: 25px;
+    position:relative;
+
+}
+.parent-search button{
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    padding: 17px 15px;
+    background-color: #52b035;
+    border: solid #52b035;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+    left: 410px;
+    top: 448px;
+    transform: translate(1%, -50%);
+}
+/* <!-- end banar --> */
+/* <!-- section2 --> */
+.title{
+    text-align:center ;
+    margin: 55px auto;
+    font-size: 28px;
+    line-height: 44px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+
+}
+.line1{
+    display: flex;
+    height: 280px;
+    color: #fff;
+    font-size: 22px;
+    background-size: cover;
+    opacity: 1;   
+    margin:20px 20px;
+
+}
+.service1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.line2{
+    display: flex;
+    height: 280px;
+    color: #fff;
+    font-size: 22px;
+    background-size: cover;
+    opacity: 1.5;
+    margin:20px 20px;
+}
+.service2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+ 
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service2 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+/* End section 2 */
+/* start section 3 */
+.section3{
+display: flex;
+justify-content: space-between;
+margin-bottom: 35px;
+margin-top: 200px;
+margin-right: 30px;
+margin-left: 30px;
+
+}
+
+ .button1{
+    width: 110px;
+    height: 51px;
+    border-color: #45962c;
+    color: #45962c;
+    font-size: 20px;
+
+ }  
+ .stars{
+    color: rgba(219, 168, 1, 0.934);
+ }
+
+.section3 .word{
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* end section3 */
+
+/* start section 4 */
+.section4{
+display: flex;
+justify-content: center;
+font-family: 'Noto Sans Arabic', sans-serif;
+
+}
+.section4 .photo1{
+    margin:0 20px 0 10px;
+    width: 100%;
+}
+/* end section3 */
+
+
+
+
+/* <!-- start section 5 --> */
+.section5{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+    }
+    
+     .button1{
+        color: #45962c;
+        height: 57px;
+        width: 123px;
+        border: #459
+    
+     }  
+     .stars{
+        color: rgba(219, 168, 1, 0.934);
+     }
+    
+   .word{
+        font-family: 'Noto Sans Arabic', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+   
+    .section6{
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    
+    }
+    .section6 .photo1{
+        margin:0 20px 0 10px;
+        width: 100%;
+    }
+    /* <!-- end section 5 --> */
+
+    /* <!-- start section 6 --> */
+    .section6{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+        
+        }
+        
+         .button1{
+            color: #45962c;
+            height: 57px;
+            width: 123px;
+            border: #459
+        
+         }  
+         .stars{
+            color: rgba(219, 168, 1, 0.934);
+         }
+        
+         .word{
+            font-family: 'Noto Sans Arabic', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+       
+        .section6{
+        display: flex;
+        justify-content: center;
+        font-family: 'Noto Sans Arabic', sans-serif;
+        
+        }
+        .section6 .photo1{
+            margin:0 20px 0 10px;
+            width: 100%;
+        }
+
+        /* <!-- start section 7 --> */
+        .section7{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            margin-top: 60px;
+            margin-right: 30px;
+            margin-left: 30px;
+            
+            }
+            
+             button{
+                color: #45962c;
+                height: 57px;
+                width: 123px;
+                border: #459
+            
+             }  
+             .stars{
+                color: rgba(219, 168, 1, 0.934);
+             }
+            
+            .word{
+                font-family: 'Noto Sans Arabic', sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+           
+            .section77{
+            display: flex;
+            justify-content: center;
+            font-family: 'Noto Sans Arabic', sans-serif;
+            
+            }
+            .section77 .photo1{
+                margin:0 20px 0 10px;
+                width: 100%;
+            }
+            /* <!-- start section 8 --> */
+            .section8{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                margin-top: 60px;
+                margin-right: 30px;
+                margin-left: 30px;
+                
+                }
+                
+                 button{
+                    color: #45962c;
+                    height: 57px;
+                    width: 123px;
+                    border: #459
+                
+                 }  
+                 .stars{
+                    color: rgba(219, 168, 1, 0.934);
+                 }
+                
+                .word{
+                    font-family: 'Noto Sans Arabic', sans-serif;
+                    font-size: 40px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+               
+                .section88{
+                display: flex;
+                justify-content: center;
+                font-family: 'Noto Sans Arabic', sans-serif;
+                
+                }
+                .section88 .photo1{
+                    margin:0 20px 0 10px;
+                    width: 100%;
+                }
+                /* <!-- end section 8 --> */
+
+                      /* <!-- start section 9 --> */
+            .section9{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                margin-top: 60px;
+                margin-right: 30px;
+                margin-left: 30px;
+                
+                }
+                
+                 button{
+                    font-size: 20px;
+                    color: #45962c;
+                    height: 57px;
+                    width: 123px;
+                    border: #459
+                
+                 }  
+                 .stars{
+                    color: rgba(219, 168, 1, 0.934);
+                 }
+                
+                .word{
+                    font-family: 'Noto Sans Arabic', sans-serif;
+                    font-size: 40px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+               
+                .section99{
+                display: flex;
+                justify-content: center;
+                font-family: 'Noto Sans Arabic', sans-serif;
+                
+                }
+                .section99 .photo1{
+                    margin:0 20px 0 10px;
+                    width: 100%;
+                }
+                /* <!-- end section 9 --> */
+
+
+
+                /* <!-- start section 10 --> */
+            .part {
+                display: flex;
+                width: 100%;
+                height: 100%;
+                padding-right: 18px;
+                padding-left: 18px;
+                
+              }
+              .part1 h1{
+                margin-top: 150px;
+                margin-right: 55px;
+                text-align: start;
+              }
+              .part2 h2{
+                margin-top: 150px;
+                font-size: 30px;                
+              }
+              .part1 li{
+                font-size: 24px;
+                color: #52b035;
+                margin-top:10px ;
+              }
+              ul{
+                list-style-type:none;
+                margin: 50px;
+                padding: 10px;
+              }
+              .part2 i {
+               margin: 8px;
+               padding-top: 20px;
+               size: 50px;
+             }
+             /* <!-- end section 10 --> */
+
+        .last{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+       
+        background-color: rgb(226, 225, 225);
+     }
+        .second{
+        display: flex;
+        justify-content: space-around;
+        height: 7px;
+     }
+     .second li{
+        margin: 17px;
+        font-size: 18px;
+        margin-top: 10px;
+     }
+     .thre{
+        font-size: 20px;
+     }
+
+
+     .hsoub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+     }
+     .hsoub img{
+        height: 50px;
+        margin: 15px;
+     }
+
+
+
+     .END{
+       
+       justify-content: space-between;
+        padding: 80px;
+        margin-left: 30px;
+        margin-right: 150px;
+     }
+     .eight{
+        display: flex;
+        margin-bottom: 60px;
+        
+     }
+     .seven{
+        display: flex;
+        margin-bottom: 10px;
+     }
+     .four{
+       margin-left: 20px;
+     }
+    
+  
